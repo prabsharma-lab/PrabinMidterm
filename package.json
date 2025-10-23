@@ -1,0 +1,26 @@
+{
+  "name": "midterm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-build":"sass --no-source-map scss:css",
+    "sass-watch":"sass --no-source-map --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prabsharma-lab/PrabinMidterm.git"
+  },
+  "keywords": [],
+  "author": "Prabin Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prabsharma-lab/PrabinMidterm/issues"
+  },
+  "homepage": "https://github.com/prabsharma-lab/PrabinMidterm#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "sass": "^1.93.2"
+  }
+}

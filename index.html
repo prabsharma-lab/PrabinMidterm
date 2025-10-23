@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Factorial Calculator | Prabin Sharma</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" class="me-3 text-decoration-none">HTML5</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" class="me-3 text-decoration-none">JavaScript</a>
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" class="text-decoration-none">CSS</a>
+        </div>
+        <div class="d-flex align-items-center">
+          <button class="btn btn-dark btn-sm me-2">Dark</button>
+          <button class="btn btn-light btn-sm me-2">Light</button>
+          <button type="button" class="btn btn-secondary btn-sm">Contact Me</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <div class="row mb-3">
+      <div class="col-md-3 d-flex flex-column justify-content-center text-end">
+        <h5>Factorial calculator.</h5>
+        <p>n! = 1x2x3 ... xn.</p>
+        <p>e.g. 5! = 120.</p>
+      </div>
+      <div class="col-md-9">
+        <div class="mb-3">
+          <input id="numberInput" type="number" class="form-control form-control-lg" placeholder="Enter a number">
+        </div>
+        <div id="output" class="output-screen mb-3 rounded"></div>
+        <button class="btn btn-secondary" onclick="calculateFactorial()">Enter</button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center p-3">
+    Simple factorial calculator © 2025
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/factorial.js"></script>
+</body>
+</html>
